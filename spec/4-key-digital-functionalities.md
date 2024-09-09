@@ -8,7 +8,7 @@ Note, this section may be extended after the key functionalities have been liste
 
 Key Digital Functionalities describe the core (required) functions that this Building Block must be able to perform:
 
-## 4.1. Software-defined infrastructure (Storage, Network, Compute) <a href="#id-41-software-defined-infrastructure-storage-network-compute" id="id-41-software-defined-infrastructure-storage-network-compute"></a>
+## 4.1. Virtualization Layer (Storage, Network, Compute) <a href="#id-41-software-defined-infrastructure-storage-network-compute" id="id-41-software-defined-infrastructure-storage-network-compute"></a>
 
 After physical hardware has been deployed in the data center and added to an asset management system, it needs to be virtualized, so it can be sliced up in small pieces and on-demand composed into securely isolated small, medium and big chunks of capacity in a way consumable by customers. Compute capacity (the CPUs and increasingly also the GPUs and main memory) are virtualized by using hypervisor software (supported by commodity hardware technologies), which allows users to use fractions or large parts of a system as needed, securely isolated from other fractions.
 
@@ -24,7 +24,7 @@ Using these APIs and readily available open source software, higher level abstra
 
 Cloud platforms that are typically used for building private clouds often allow for a huge amount of configurability. While this allows for highly specialized clouds, it comes with the downside of destroying the network effects of highly standardized platforms that has made the public cloud platforms so successful, facilitating the emergence of large ecosystems of applications. Standardizing the APIs and system behavior of cloud platforms (without necessarily prescribing many of the implementation details) and codifying best practices for these is thus a prerequisite for creating platforms that support self-reinforcing ecosystems. Where differences do provide meaningful differentiation for providers, standardized ways to make these discoverable are required.
 
-## 4.2. Modern platform for Application Management: Container Technology <a href="#id-42-modern-platform-for-application-management-container-technology" id="id-42-modern-platform-for-application-management-container-technology"></a>
+## 4.2. Container Cluster (Modern platform for Application Management) <a href="#id-42-modern-platform-for-application-management-container-technology" id="id-42-modern-platform-for-application-management-container-technology"></a>
 
 Virtualization technology emulates real hardware with the advantage that you can run your own operating system (that was developed to run on physical hardware) inside a virtual machine. While this gives a lot of flexibility, it also creates some overhead. The operating system needs to be booted to initialize itself and the emulated hardware may not be the best level of abstraction for the individual services and components that comprise a workload. Taking the speed of elasticity to the next level, containers are being used. These are launched like normal processes in an already running operating system, just with their individual view of the file system (and thus e.g. the set of libraries being available), network connections and CPU and memory allocation. Elasticity is possible a the scale of seconds and below using container technology.
 
