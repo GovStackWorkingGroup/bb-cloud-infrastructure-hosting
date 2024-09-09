@@ -5,4 +5,4 @@ Throughout this template are a series of these info callouts. They are designed 
 {% endhint %}
 
 \
-Developed by: `<Names and organization affiliations of working group members>` in cooperation with GIZ, ITU, DIAL, and the Government of Estonia
+Developed by: `Kurt Garloff, Friederike Zelke, Max Wolfs, Artem Goncharov (all SCS @ OSB Alliance), Nico Lück (GIZ), Ramkumar Permachanahalli, Walid Mathlouti, Sreepathy Vardarajan, Ayush Shukla, Yolanda Martinez, Hani Eskandar (ITU)` in cooperation with GIZ, ITU, DIAL, and the Government of Estonia
