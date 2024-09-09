@@ -1,11 +1,5 @@
 # 10 Other Resources
 
-{% hint style="success" %}
-This section can be used to link to any external documents that may be relevant, such as standards documents or other descriptions of this building block that may be useful
-
-This section should contain at minimum, links to the Cross-BB Workflows that have been defined for this BB, the Key Decision Log (Confluence), and Future Considerations (Confluence)
-{% endhint %}
-
 This section links to any external documents that may be relevant, such as standards documents or other descriptions of this Building Block that may be useful.
 
 * [GovStack Security Requirements](https://govstack.gitbook.io/specification/security-requirements)

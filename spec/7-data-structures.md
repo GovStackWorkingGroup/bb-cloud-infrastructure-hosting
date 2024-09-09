@@ -1,24 +1,5 @@
 # 7 Data Structures
 
-{% hint style="success" %}
-This section provides information on the core data structures/data models that are used by a Building Block. These data structures describe information that is exchanged between building blocks - they do not dictate internal data structures for a particular implementation. These data structures should also describe the _minimum_ set of information that should be passed in an API call. The data structures can be extended for particular use cases.
-
-For each data model, the following information should be provided:
-
-* Name
-* Description
-* Fields - the various fields in this data structure. Each field definition should contain the following:
-  * Name
-  * Type (string, Boolean, number, date, etc)
-  * Description
-  * Foreign Key (does this field reference another data structure)
-  * Constraints (does the field need to be unique, is it the primary key)
-  * Required (Y/N)
-  * You can also reference any standards that must be adhered to (ie. UTC standard for date/times)
-
-**Resource Model:** This section may also include a resource model diagram which shows the relationship between data objects that are used by this Building Block.
-{% endhint %}
-
 This section provides information on the core data structures/data models that are used by this Building Block.
 
 A precise description of all data structures of a full cloud- and container platform would fill hundreds of pages and also imply specific technologies to implement the cloud- and container orchestration layers. Industry attempts to define technology neutral meta APIs and data structures have thus far had limited traction; the most successful one is probably [TOSCA](https://input.scs.community/). Infra-as-Code tools (such as opentofu or ansible) also have their own representation of the resources and their properties – however, they do not abstract away the differences in the object model of different cloud- and container orchestration systems.

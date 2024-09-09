@@ -1,15 +1,5 @@
 # 6 Functional Requirements
 
-{% hint style="success" %}
-The functional requirements section lists the technical capabilities that this building block should have. These requirements should be sufficient to deliver all functionality that is listed in the Key Digital Functionalities section.
-
-These functional requirements do not define specific APIs - they provide a list of information about functionality that must be implemented within the building block.
-
-These requirements should be defined by subject-matter experts and don’t have to be highly technical in this section.
-
-If there are multiple functional components of a building block, the functional requirements for each component may have its own section
-{% endhint %}
-
 This section lists the technical capabilities of this Building Block:
 
 ## 6.1 Management of physical hardware <a href="#id-61-management-of-physical-hardware" id="id-61-management-of-physical-hardware"></a>

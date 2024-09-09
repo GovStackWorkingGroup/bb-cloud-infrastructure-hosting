@@ -1,9 +1,5 @@
 # 3 Terminology
 
-{% hint style="success" %}
-Terminology/glossary used within the specification. The terms can be laid out in a table format
-{% endhint %}
-
 The terminology used within this specification will include:
 
 | Term                                 | Description                                                                                                                                                                                                                                                              |

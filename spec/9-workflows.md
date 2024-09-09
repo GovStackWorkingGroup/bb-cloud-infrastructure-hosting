@@ -1,11 +1,5 @@
 # 9 Internal Workflows
 
-{% hint style="success" %}
-This section describes standard _internal_ workflows that a building block should support. Each internal workflow must be linked to one of the Functional Requirements defined in section 6.
-
-An internal workflow describes the internal processes that a Building Block needs to execute to complete a request from an external application or Building Block to fulfull the functional requirement
-{% endhint %}
-
 This section provides a detailed view of how this Building Block will interact with other Building Blocks to support common use cases.
 
 Main interactions with other building blocks (BBs) is that other BBs run on the virtualized or containerized infrastructure as provided by this BB.

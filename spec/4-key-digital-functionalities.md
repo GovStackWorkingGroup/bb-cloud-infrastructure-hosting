@@ -1,11 +1,5 @@
 # 4 Key Digital Functionalities
 
-{% hint style="success" %}
-The Key Digital Functionalities describe the core (required) functions that this building block must be able to perform. These functionalities should be described as business processes as opposed to technical specifications or API definitions.
-
-Note, this section may be extended after the key functionalities have been listed to include any assumptions or context that is needed. Additionally, if the Building Block contains multiple components, the functionalities for each may be described.
-{% endhint %}
-
 Key Digital Functionalities describe the core (required) functions that this Building Block must be able to perform:
 
 ## 4.1. Virtualization Layer (Storage, Network, Compute) <a href="#id-41-software-defined-infrastructure-storage-network-compute" id="id-41-software-defined-infrastructure-storage-network-compute"></a>

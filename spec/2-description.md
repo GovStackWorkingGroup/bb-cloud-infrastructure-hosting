@@ -1,9 +1,5 @@
 # 2 Description
 
-{% hint style="success" %}
-Set the context of the Building Block for the reader. The description should not assume that the reader has any experience of the GovStack system other than that found on the GovStack website.
-{% endhint %}
-
 This section provides context for this Building Block.
 
 Use-Case for Cloud Infrastructure: Digital services come as Software that needs to be deployed on Hardware. Modern ways of doing this allow for development, test and production deployments to happen in a fully software-defined automated way. The infrastructure must support this and create and connect virtual resources on-demand as prescribed by the automation.
@@ -22,7 +18,5 @@ To leverage their full potential, such teams need access to pooled infrastructur
 While many organizations have benefitted from gradually adapting their workloads to take advantage of the automation possibilities of cloud computing, the IT industry witnesses a new generation of workloads that has been designed from the ground up to take full advantage of the possibilities of cloud infrastructure; auto-scaling stateless services on-demand to the current level of load and automating a lot of the operational tasks that would otherwise be done manually by operations teams. These workloads are called cloud-native. While the first wave of these were based on virtual machines (VMs), we see a second, larger wave of these that leverage container technologies. In many cases, these containers run on top of virtual machines, thus allowing to balance good developer abstractions and fast scalability (where container technologies excel) with flexibility and isolation requirements (the strength of virtualization technology). In dedicated environments however, it can be beneficial to cut out the complexity of a virtualization layer and to run containers on bare-metal.
 
 In all cases, users of the technology should consider the dependencies on providers of technology and infrastructure and take deliberate decisions on all components of the technology stack required to develop and run their workloads.
-
-
 
 <figure><img src=".gitbook/assets/6a7ae154-8a7e-4601-9be2-c9e737924a12.png" alt=""><figcaption><p><em>Architecture of the Cloud and Container Building Block. The Hardware and the Platform Building Blocks and Workloads are not part of this BB but were included for completeness. The architecture assumes many container clusters rather than just one for isolation reasons. Platform BBs and Workloads can directly access the IaaS/Virtualization Layer, but most modern ones will be implemented using container technology.</em></p></figcaption></figure>
