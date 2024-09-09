@@ -70,7 +70,7 @@ Some best practices need to be built into the operational processes and the arch
 
 ## 4.5. IAM (Identity and Access Management) <a href="#id-45-iam-identity-and-access-management" id="id-45-iam-identity-and-access-management"></a>
 
-In this section Identity and Access Management approaches of cloud computing environments are described in addition to: [https://govstack.gitbook.io/bb-identity](https://govstack.gitbook.io/bb-identity).
+In this section Identity and Access Management approaches of cloud computing environments are described in addition to the creation, verification and authentication of identities: [https://govstack.gitbook.io/bb-identity](https://govstack.gitbook.io/bb-identity).
 
 State of the art identity and access management systems allow user administrators to assign authorizations to users by assigning them to a group that reflects their job assignment. Experts inside the organization that understand how cloud infrastructure is being employed inside a project can then do a fine-grained setting for that group, deciding to what virtual environments and resources full access and read-only access is required.
 
