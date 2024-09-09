@@ -68,7 +68,7 @@ Some best practices need to be built into the operational processes and the arch
 * Publishing security advisories and providing and/or deploying security fixes short-term. This requires running reference environments such that security issues can be reproduced, fixes be validated and then deployed to production with confidence without long lead times.
 * Adhering to relevant security standards and certifying compliance against them.
 
-## 4.5. IAM (Identity and Access Management) <a href="#id-45-iam-identity-and-access-management" id="id-45-iam-identity-and-access-management"></a>
+## 4.4. IAM (Identity and Access Management) <a href="#id-45-iam-identity-and-access-management" id="id-45-iam-identity-and-access-management"></a>
 
 In this section Identity and Access Management approaches of cloud computing environments are described in addition to the creation, verification and authentication of identities: [https://govstack.gitbook.io/bb-identity](https://govstack.gitbook.io/bb-identity).
 
@@ -80,7 +80,7 @@ It is recommended to keep the authorization primitives simple as in “group G h
 
 Identity and Access Management (IAM) needs to support federation; allowing to keep authentication and group assignment in a corporate directory or use the system from another cloud that uses the same standards. It needs to allow for a high degree of self-service. It needs to cover access decisions to both the virtualization and the container layer (if both are offered by an infrastructure offering). It needs to provide a high level of availability.
 
-## 4.6. Observability <a href="#id-46-observability" id="id-46-observability"></a>
+## 4.5. Observability <a href="#id-46-observability" id="id-46-observability"></a>
 
 Highly distributed dynamic systems such as cloud and container platforms have a high tendency for complex patterns of unwanted behavior. With increasing maturity of the management software, this may become less frequent, but it is absolutely best practice to closely monitor the availability of all services on a platform. Beyond just the monitoring of service availability (“does the service respond when I connect to it?”), it is recommended to do scenario testing, where a model workload is being automatically deployed into the cloud and/or container infrastructure and tests are done to measure the workload’s functioning. Recording success rates and also performance allows for seeing trends and detecting services that may respond to requests but don’t successfully fulfill them. This is often called health-monitoring.
 
@@ -92,7 +92,7 @@ Health-monitoring from a user perspective (top-down) should be complemented by i
 
 For debugging difficult issues, logs will be collected and need to be aggregated, correlated and indexed for searchability. Logs may also be evaluated in case of security incidents or to audit that system’s compliance status.
 
-## 4.7. Life cycle management <a href="#id-47-life-cycle-management" id="id-47-life-cycle-management"></a>
+## 4.6. Life cycle management <a href="#id-47-life-cycle-management" id="id-47-life-cycle-management"></a>
 
 The installation of cloud infrastucture can be automated – once all the hardware setup is completed and properly recorded in the asset management system. The automation of course is especially useful when setting up test or reference clouds. The freedom to do this regularly offers the ability to test various software states in an automated way, e.g. performing dozens of upgrades (and rollbacks) before touching the production environment. It is recommended to keep the system configuration in a versioned software revision control system such as git.
 
@@ -104,7 +104,7 @@ Software occasionally makes larger jumps, adding lots of new functionality, but 
 
 The life cycle management tools need to support with installing major updates. The process documentation should contain information on the expected impact, e.g. downtimes for the control plane, reduced performance or so. Providers should use these to announce the impact to their customer ahead of time.
 
-## 4.8. Metering <a href="#id-48-metering" id="id-48-metering"></a>
+## 4.7. Metering <a href="#id-48-metering" id="id-48-metering"></a>
 
 The cost of running the platform needs to be allocated according to the usage; what is a requirement for a public cloud still makes sense for internal platforms to track the needs and usage of various departments (and encourage avoiding unecessarily large consumption of resources and energy).
 
