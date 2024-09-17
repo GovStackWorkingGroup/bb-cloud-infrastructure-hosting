@@ -13,3 +13,12 @@ This section links to any external documents that may be relevant, such as stand
 * Digitale Souveränität und Künstliche Intelligenz – Voraussetzungen, Verantwortlichkeiten und Handlungsempfehlungen des Digital Gipfel 2018
 * Philpott, Daniel. 2020. “Sovereignty.” In The Stanford Encyclopedia of Philosophy, edited by Edward N. Zalta, Fall 2020. [https://plato.stanford.edu/archives/fall2020/entries/sovereignty/](https://plato.stanford.edu/archives/fall2020/entries/sovereignty/); Metaphysics Research Lab, Stan-ford University.
 * Open Operations Manifesto [https://openoperations.org/](https://openoperations.org/)
+
+## 10.1 Future Considerations
+
+* Include a wider range of internationally recognized frameworks, e.g. European Union Agency for Cybersecurity (ENISA) guidelines, GDPR for the EU, and other regional standards such as Singapore’s Personal Data Protection Act (PDPA)
+* Extend guidance on scalability taking into consideration diverse needs of nations with varying geographic and demographic contexts (e.g. geo-distributed architectures and multi-region deployments) and edge computing for improving service delivery in remote or underserved areas
+* Investigate where zero trust security should be included
+* Add requirements on data residency and thereby addressing the need for critical data to be stored within national borders or in compliant jurisdictions
+* Highlight the importance and impact of Service Level Agreements (SLA) and multi-vendor strategies to meet stringent uptime and redundancy requirements
+* Include strategies for implementing FinOps and provide guidelines on designing cost-effective, sustainable cloud infrastructures that align with global sustainability goals
