@@ -1,6 +1,10 @@
-# 7 Data Structures
+---
+description: >-
+  This section provides information on the core data structures/data models that
+  are used by this Building Block.
+---
 
-This section provides information on the core data structures/data models that are used by this Building Block.
+# 7 Data Structures
 
 A precise description of all data structures of a full cloud- and container platform would fill hundreds of pages and also imply specific technologies to implement the cloud- and container orchestration layers. Industry attempts to define technology neutral meta APIs and data structures have thus far had limited traction; the most successful one is probably [TOSCA](https://input.scs.community/). Infra-as-Code tools (such as opentofu or ansible) also have their own representation of the resources and their properties – however, they do not abstract away the differences in the object model of different cloud- and container orchestration systems.
 

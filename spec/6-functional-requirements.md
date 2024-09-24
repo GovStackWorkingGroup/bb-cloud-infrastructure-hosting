@@ -1,6 +1,8 @@
-# 6 Functional Requirements
+---
+description: This section lists the technical capabilities of this Building Block.
+---
 
-This section lists the technical capabilities of this Building Block:
+# 6 Functional Requirements
 
 ## 6.1 Management of physical hardware <a href="#id-61-management-of-physical-hardware" id="id-61-management-of-physical-hardware"></a>
 
@@ -38,7 +40,7 @@ This section lists the technical capabilities of this Building Block:
   * Providers should minimize disruption e.g. by using live migration of VMs for host maintenance (RECOMMENDED).
 * All of the virtualized resources are controlled by REST APIs that allow on-demand self-service for authenticated platform users (REQUIRED).
 * The virtualization platform offers a service catalog that allows to discover the available services, how to access them and what optional features the services support (REQUIRED).
-* The REST APIs must be documented publicly (REQUIRED)&#x20;
+* The REST APIs must be documented and accessible over public internet (REQUIRED).
 * The REST APIs must be supported by common Infrastructure as Code Tools (REQUIRED).&#x20;
 * Ideally they are covered by an OpenAPI 3.1+ specification (RECOMMENDED).
 * The capabilities for users are limited by their assigned roles (REQUIRED) and by quotas that cap resource usage (REQUIRED).&#x20;
@@ -61,8 +63,8 @@ This section lists the technical capabilities of this Building Block:
 * There is a Self-service function to create Container Orchestration Clusters within customer projects on-demand (REQUIRED).
 * The offered APIs are discoverable (REQUIRED).
 * The size of these clusters (how many machines with what size) can be chosen by users (REQUIRED).
-* Unless explicitly chosen differently by the user (e.g. by creating single-node clusters), the clusters are distributed over several physical machines to ensure resiliency against outage of single physical machines (REQUIRED).
-* The clusters can be enlarged or reduced in size on the fly (REQUIRED) and without disruption (as long as users don’t request to go below a minimal size).
+* It must be possible to distribute clusters over several physical machines to ensure resiliency against outage of single physical machines (REQUIRED).
+* The clusters can be enlarged or reduced in size on the fly (based on the user configuration) without disruption (as long as users don’t request to go below a minimal size) (RECOMMENDED).&#x20;
 * The container orchestration software can be updated without disruption to the user workload nor the control place (REQUIRED). (This may be subject to minimal size requirements again, a single node cluster can not do rolling upgrades, obviously.)
 * There must be a documented way to get a metrics service deployed that allows to observe the load on the system (REQUIRED).&#x20;
   * It is recommended that this is enabled by default, i.e. implemented as opt-out (RECOMMENDED).

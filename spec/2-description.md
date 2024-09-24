@@ -1,10 +1,12 @@
+---
+description: This section provides context for this Building Block.
+---
+
 # 2 Description
 
-This section provides context for this Building Block.
+Use-Case for Cloud Infrastructure: Digital services require software to be deployed on hardware. Modern practices allow for fully automated, software-defined deployments across development, testing, and production environments. The infrastructure building block specification supports this by enabling software specification that allows to connect virtual resources as needed. Solutions which adhere to this building block should achieve these goals.
 
-Use-Case for Cloud Infrastructure: Digital services come as Software that needs to be deployed on Hardware. Modern ways of doing this allow for development, test and production deployments to happen in a fully software-defined automated way. The infrastructure must support this and create and connect virtual resources on-demand as prescribed by the automation.
-
-Software to create and operate flexible cloud- and container infrastructure is available as mature open source technology. With guidelines, standardization, hardware and an Operations team, it can be run in any data center on top of commodity server hardware. It can of course also be used by local or global providers to offer the same, compatible technology as a public cloud. This control and transparency over technology allows for a high level of digital sovereignty.
+Mature open-source tools are available to build and manage flexible cloud and container infrastructures. With the right guidelines, standardization, hardware, and an operations team, this setup can run in any data center using common server stack. It can also be offered by providers as a public cloud service. This approach ensures control, transparency, and strong digital sovereignty.
 
 ## 2.1. Abstract <a href="#id-21-abstract" id="id-21-abstract"></a>
 

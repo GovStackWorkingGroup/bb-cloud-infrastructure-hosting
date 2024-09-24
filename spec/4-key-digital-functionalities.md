@@ -1,6 +1,10 @@
-# 4 Key Digital Functionalities
+---
+description: >-
+  Key Digital Functionalities describe the core (required) functions that this
+  Building Block must be able to perform.
+---
 
-Key Digital Functionalities describe the core (required) functions that this Building Block must be able to perform:
+# 4 Key Digital Functionalities
 
 ## 4.1. Virtualization Layer (Storage, Network, Compute) <a href="#id-41-software-defined-infrastructure-storage-network-compute" id="id-41-software-defined-infrastructure-storage-network-compute"></a>
 

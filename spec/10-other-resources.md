@@ -1,6 +1,11 @@
-# 10 Other Resources
+---
+description: >-
+  This section links to any external documents that may be relevant, such as
+  standards documents or other descriptions of this Building Block that may be
+  useful.
+---
 
-This section links to any external documents that may be relevant, such as standards documents or other descriptions of this Building Block that may be useful.
+# 10 Other Resources
 
 * [GovStack Security Requirements](https://govstack.gitbook.io/specification/security-requirements)
 * [GovStack Architecture Guidelines](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/4-building-block-design-principles)

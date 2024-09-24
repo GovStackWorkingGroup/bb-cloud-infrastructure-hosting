@@ -1,6 +1,10 @@
-# 8 Service APIs
+---
+description: >-
+  This section provides a reference for APIs that should be implemented by this
+  Building Block.
+---
 
-This section provides a reference for APIs that should be implemented by this Building Block.
+# 8 Service APIs
 
 The same comment as in section 7 applies. We refrain from defining Meta-APIs here, but may agree to do so at a later stage. The implementations should use standard APIs that are well supported by IaC tooling.
 

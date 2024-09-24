@@ -1,6 +1,10 @@
-# 9 Internal Workflows
+---
+description: >-
+  This section provides a detailed view of how this Building Block will interact
+  with other Building Blocks to support common use cases.
+---
 
-This section provides a detailed view of how this Building Block will interact with other Building Blocks to support common use cases.
+# 9 Internal Workflows
 
 Main interactions with other building blocks (BBs) is that other BBs run on the virtualized or containerized infrastructure as provided by this BB.
 
