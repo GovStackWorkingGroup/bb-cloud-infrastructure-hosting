@@ -48,23 +48,39 @@ Complex technology comes with weaknesses. Whether those are conceptual weaknesse
 
 Some best practices need to be built into the operational processes and the architecture of cloud and container solutions to be resilient:
 
-* A clear distinction between different roles and the coresponding authorizations; a well-documented way to manage these authorizations, and strong authentication mechanisms.
-* Well-trained staff that understands the risks of falling prey to social engineering attacks and with sufficient staffing that allows people to think twice and to follow four-eyes principles for administrative operations with elevated privileges.
-* A set of rules, permissions and processes that allows people to do their work without violating the rules and that is thus followed and enforced in real-life.
-* Using well-defined and limited interfaces with good abstractions that reduce the attack surface (for example the virtualization abstraction where a well-understand hardware interface is being used for isolation).
-* A learning culture that does avoid shaming people for making mistakes but focuses on analyzing errors, making issues transparent and providing a learning experience beyond just the involved indidividuals, creating processes and automation that ensures similar mistakes can not happen again.
-* A collaboration culture that encourages reviews of each other’s work, where questioning the design and implementation of a solution is considered valuable feedback.
-* An approach of least privileges; each actor (human or machine) only has the privileges it needs to do its job. This also means that actors that needs lots of different privileges probably should be split into several actors. This may mean that human beings (often operators) may be assigned several roles, but can only perform actions with one of them at a time.
-* A system of defense in depth, where the elevation of privileges on one system tends to be contained to affect this one system only.
-* Using encryption (with published, well-understood, state-of-the-art algorithms) for data at rest and in transit to ensure that eavesdropping does not compromise the confidentiality of data.
-* A clear understanding that customer input may never be trusted and always needs to be validated / sanitized when being processed.
-* The usage of secure programming languages and/or tools that scan for typical programming mistakes.
-* Using penetration testers to find weaknesses in a system.
-* Offering a way for security researchers to report findings and reward them.
-* Creating a security team and providing contact information for outsiders to contact it.
-* Evaluating published security reports and be connected to relevant pre-disclosure security channels to receive advance warnings.
-* Publishing security advisories and providing and/or deploying security fixes short-term. This requires running reference environments such that security issues can be reproduced, fixes be validated and then deployed to production with confidence without long lead times.
-* Adhering to relevant security standards and certifying compliance against them.
+(1) A clear distinction between different roles and the coresponding authorizations; a well-documented way to manage these authorizations, and strong authentication mechanisms.
+
+(2) Well-trained staff that understands the risks of falling prey to social engineering attacks and with sufficient staffing that allows people to think twice and to follow four-eyes principles for administrative operations with elevated privileges.
+
+(3) A set of rules, permissions and processes that allows people to do their work without violating the rules and that is thus followed and enforced in real-life.
+
+(4) Using well-defined and limited interfaces with good abstractions that reduce the attack surface (for example the virtualization abstraction where a well-understand hardware interface is being used for isolation).
+
+(5) A learning culture that does avoid shaming people for making mistakes but focuses on analyzing errors, making issues transparent and providing a learning experience beyond just the involved indidividuals, creating processes and automation that ensures similar mistakes can not happen again.
+
+(6) A collaboration culture that encourages reviews of each other’s work, where questioning the design and implementation of a solution is considered valuable feedback.
+
+(7) An approach of least privileges; each actor (human or machine) only has the privileges it needs to do its job. This also means that actors that needs lots of different privileges probably should be split into several actors. This may mean that human beings (often operators) may be assigned several roles, but can only perform actions with one of them at a time.
+
+(8) A system of defense in depth, where the elevation of privileges on one system tends to be contained to affect this one system only.
+
+(9) Using encryption (with published, well-understood, state-of-the-art algorithms) for data at rest and in transit to ensure that eavesdropping does not compromise the confidentiality of data.
+
+(10) A clear understanding that customer input may never be trusted and always needs to be validated / sanitized when being processed.
+
+(11) The usage of secure programming languages and/or tools that scan for typical programming mistakes.
+
+(12) Using penetration testers to find weaknesses in a system.
+
+(13) Offering a way for security researchers to report findings and reward them.
+
+(14) Creating a security team and providing contact information for outsiders to contact it.
+
+(15) Evaluating published security reports and be connected to relevant pre-disclosure security channels to receive advance warnings.
+
+(16) Publishing security advisories and providing and/or deploying security fixes short-term. This requires running reference environments such that security issues can be reproduced, fixes be validated and then deployed to production with confidence without long lead times.
+
+(17) Adhering to relevant security standards and certifying compliance against them.
 
 ## 4.4. IAM (Identity and Access Management) <a href="#id-45-iam-identity-and-access-management" id="id-45-iam-identity-and-access-management"></a>
 
