@@ -68,7 +68,7 @@ description: This section lists the technical capabilities of this Building Bloc
 * The container orchestration software can be updated without disruption to the user workload nor the control place (REQUIRED). (This may be subject to minimal size requirements again, a single node cluster can not do rolling upgrades, obviously.)
 * There must be a documented way to get a metrics service deployed that allows to observe the load on the system (REQUIRED).&#x20;
   * It is recommended that this is enabled by default, i.e. implemented as opt-out (RECOMMENDED).
-* There must be clear responsibilities to provide (REQUIRED)&#x20;
+* There must be clear responsibilities to provide (REQUIRED) and optionally install (OPTIONAL) security upgrades to the orchestration software by the provider.&#x20;
   * Optionally, install security upgrades to the orchestration software by the provider (OPTIONAL).
 * The container clusters must provide access to persistent storage (REQUIRED).
 * The container clusters must provide ways to control securely isolated networking between containers (REQUIRED)&#x20;
