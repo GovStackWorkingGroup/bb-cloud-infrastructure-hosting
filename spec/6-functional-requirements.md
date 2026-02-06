@@ -83,13 +83,13 @@ description: This section lists the technical capabilities of this Building Bloc
 
 ## 6.4 Identity and Access Management <a href="#id-64-identity-and-access-management" id="id-64-identity-and-access-management"></a>
 
-* The platform should offer federatable identity management that can be used by customers for controlling access to the Virtualization Platform and to the Container Platform.
-* The platform should allow for customer-controlled user federation from external Identity Providers via industry standard protocols such as Open ID Connect (RECOMMENDED).&#x20;
+* The platform should offer federatable identity management that can be used by customers for controlling access to the Virtualization Platform and to the Container Platform (RECOMMENDED).
+  * The platform should allow for customer-controlled user federation from external Identity Providers via industry standard protocols such as Open ID Connect (RECOMMENDED).&#x20;
   * The Identity Provider may be another compatible cloud (RECOMMENDED).
 * The multi-tenancy supports two layers (RECOMMENDED).
   * Virtual resources belong to a project and only users that have roles with access to this project can see and manage them (REQUIRED).
   * By default, resources from different projects are isolated from each other (REQUIRED).
-  * User and role management is possible in a self-service manner with isolated domains/realms (RECOMMENDED).
+  * User and role management is possible in a self-service manner with isolated domains/realms (RECOMMENDED) which are home to one or many projects.
 * The container management platform allows to federate users from external identity providers using OpenID connect (and possibly other established standards), also allowing to leverage the same identities that are used on the virtualization layer (if so wanted by the user). (REQUIRED)
 
 ## 6.5 Operational and Security Tooling <a href="#id-65-operational-and-security-tooling" id="id-65-operational-and-security-tooling"></a>
