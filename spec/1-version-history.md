@@ -17,4 +17,8 @@
 <td>1.0</td>
 <td>Kurt Garloff, Nico Lück</td>
 <td>Formatting changes; Incorporation of feedback from Kristo Vaher, Ott Sarv, Sreepathy H Vardarajan to specific requirements in chapter 4-6 and for future considerations (v1.X and v2)</td>
+</tr><tr>
+<td>1.1</td>
+<td>Kurt Garloff</td>
+<td>Cosmetic: Fix architecture image underlines; add back missing half-sentence on security upgrades, indent IAM items correctly, clarify two-layer multi-tenancy.</td>
 </tr></tbody></table>
