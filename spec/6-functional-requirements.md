@@ -33,7 +33,7 @@ description: This section lists the technical capabilities of this Building Bloc
 * The storage subsystem supports user controlled snapshots and backups (REQUIRED).
 * The storage also exposes a standardized object storage interface (REQUIRED).
 * The storage offers several storage classes with different performance and encryption attributes (RECOMMENDED) whose properties are documented and discoverable.
-  * Optionally supporting dedicated storage solutions (OPTIONAL).
+  * Optionally supporting dedicated external storage solutions (OPTIONAL).
 * There is a key management function that can be used to securely handle secrets for storage and network encryption (RECOMMENDED).
 * Optionally, the platform provides a Domain Name Service capability (RECOMMENDED).
 * The provider must ensure security updates for the cloud management software are deployed, notifying users when this leads to workload or control plane disruption (REQUIRED).&#x20;
