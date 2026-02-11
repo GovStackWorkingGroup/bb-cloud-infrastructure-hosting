@@ -4,18 +4,54 @@ description: The terminology used within this specification.
 
 # 3 Terminology
 
-| Term                                 | Description                                                                                                                                                                                                                                                              |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Virtualization                       | The process of creating an abstraction layer over computer hardware (storage, network, compute) that allows a computer to share its hardware with multiple virtual seperated environments.                                                                               |
-| Virtual Machines (VM)                | The virtual hardware with virtual CPUs, memory (RAM), disks, network adapters where consumers can run an Operating System and Software of their choice.                                                                                                                  |
-| Hypervisor                           | Software that creates and runs virtual machines by abstracting the hardware and allowing multiple operating systems to run concurrently on a host computer.                                                                                                              |
-| Containerization                     | A form of lightweight virtualization that involves encapsulating an application and its dependencies into a container that can run on any computing environment.                                                                                                         |
-| Container                            | A process or set of processes that have their private and isolated view of the file system and network and compute capacity. All containers on a (virtual) machine share the same operating system.                                                                      |
-| Multi-tenancy                        | An architecture in which a single instance of software runs on a server and serves multiple tenants (users or organizations), ensuring secure isolation between them.                                                                                                    |
-| Federation                           | The integration of multiple systems or organizations, allowing them to share resources and manage user identities across different domains while maintaining autonomy.                                                                                                   |
-| IAM (Identity and Access Management) | A framework of policies and technologies for ensuring that the right individuals have access to the right resources at the right times for the right reasons.                                                                                                            |
-| Region                               | A geographic area where cloud services and resources are deployed, typically consisting of multiple well-interconnected data centers to provide redundancy and ensure low-latency performance.                                                                           |
-| Availability Zone                    | A distinct location within a region that is engineered to be isolated from failures in other zones, providing high availability and fault tolerance.                                                                                                                     |
-| Quota                                | Usage limits per kind of resource. Users can only create a limited amount of resources to avoid overly high bills or overly high consumption of limited resources.                                                                                                       |
-| UUID                                 | Unique identifier. Typically a random number attached to a newly created resource and then used to uniquely identify and reference it. Commonly 128bit numbers in the format `a78622a8-1177-47af-b5da-3378ee5d4313` are used. Other lengths and formatting are possible. |
-| Infrastructure as Code               | Virtual infrastructure (software defined storage, network, compute) is managed like code.                                                                                                                                                                                |
+### Availability Zone
+
+A distinct location within a region that is engineered to be isolated from failures in other zones, providing high availability and fault tolerance.
+
+### Container
+
+A process or set of processes that have their private and isolated view of the file system and network and compute capacity. All containers on a (virtual) machine share the same operating system.
+
+### Containerization
+
+A form of lightweight virtualization that involves encapsulating an application and its dependencies into a container that can run on any computing environment.
+
+### Federation
+
+The integration of multiple systems or organizations, allowing them to share resources and manage user identities across different domains while maintaining autonomy.
+
+### Hypervisor
+
+Software that creates and runs virtual machines by abstracting the hardware and allowing multiple operating systems to run concurrently on a host computer.
+
+### IAM (Identity and Access Management)
+
+A framework of policies and technologies for ensuring that the right individuals have access to the right resources at the right times for the right reasons.
+
+### Infrastructure as Code
+
+Virtual infrastructure (software defined storage, network, compute) is managed like code.
+
+### Multi-tenancy
+
+An architecture in which a single instance of software runs on a server and serves multiple tenants (users or organizations), ensuring secure isolation between them.
+
+### Quota
+
+Usage limits per kind of resource. Users can only create a limited amount of resources to avoid overly high bills or overly high consumption of limited resources.
+
+### Region
+
+A geographic area where cloud services and resources are deployed, typically consisting of multiple well-interconnected data centers to provide redundancy and ensure low-latency performance.
+
+### UUID
+
+Unique identifier. Typically a random number attached to a newly created resource and then used to uniquely identify and reference it. Commonly 128bit numbers in the format a78622a8-1177-47af-b5da-3378ee5d4313 are used. Other lengths and formatting are possible.
+
+### Virtual Machines (VM)
+
+The virtual hardware with virtual CPUs, memory (RAM), disks, network adapters where consumers can run an Operating System and Software of their choice.
+
+### Virtualization
+
+The process of creating an abstraction layer over computer hardware (storage, network, compute) that allows a computer to share its hardware with multiple virtual separated environments.
